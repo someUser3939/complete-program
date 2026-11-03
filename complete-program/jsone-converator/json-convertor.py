@@ -41,6 +41,7 @@ class Convertor:
         if not isinstance(value, Convert_to_json):
             raise TypeError("Value must be an instance of Convert_to_json.")
         self.__convert_to_json = value
+        @staticmethod
         def convert_to_json(value) -> Set[str]:
                 def elements(data):
                     if isinstance(data, dict):

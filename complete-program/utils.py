@@ -1,4 +1,6 @@
-
+"""
+calculate basic operations like addition, subtraction, multiplication, and division.
+"""
 def operation(operation_name, *args, **kwargs):
     def inner_function():
         if operation_name == "add":
@@ -19,6 +21,7 @@ def operation(operation_name, *args, **kwargs):
             raise ValueError(f"Unsupported operation: {operation_name}")
     return inner_function
     return operation
-
-
+"""
+калькулятор добавленых файлов
+"""
     
